@@ -1,0 +1,51 @@
+ok so the plan is to make  a ai detection tool like 
+see in this current generation people like above 25 like that are finding it hard to know what is ai generated
+and what is real so what i want to do is build  asystem that can say people wheater the thing 
+they are seeing is a real or fake like 
+for reference we have this thing jev ai :
+
+
+"• Does Not Write Text: Unlike traditional Large Language Models (LLMs) 
+   like GPT-4 or Claude, Jev does not generate paragraphs, code, or conversational replies.
+• Returns Typed Decisions & Probabilities: You feed Jev application data (a "state") alongside specific questions, and it 
+  outputs calibrated probabilities or structured answers that software can act on immediately"
+
+this is just a reference not final workflow or anything 
+and existing tools for that are these thehive :https://docs.thehive.ai
+simialr to it and we can consider it as an inspiration kind of thing
+
+so how it should be stacked or my kind of thing 
+maybe we need this neyral network for sure in this project and it is really a long path i have these things i have some knowledge in NN and also cv 
+i can use that knowledge here and what i found is i have to learn a lot of things for this and that have been saved in my todoist 
+and there are like 4 phases to do it and it is a good learning curve too 
+
+and recommended stack for this is initially
+--------------------------------------------------
+Programming - Python                              |                  
+Image processing - OpenCV, Pillow                 |
+Numerical operations -	NumPy                     |
+Data handling -	Pandas                          |
+Deep learning -	PyTorch                         |
+Pretrained vision models -	Hugging Face           |
+Image analysis -	CNN, ViT, CLIP                  |
+Video analysis -	OpenCV, PyTorch                 |
+API/backend -	FastAPI                            |
+Frontend -	React                                 |
+Database -	PostgreSQL                            |
+Model deployment -	ONNX Runtime                 |
+Provenance -	C2PA tools                         |
+---------------------------------------------------
+
+model evaluation is the key thing that can give a condifence to our assumtion so at this level i guess i have this goal 
+to make the model more accurate in the sense if the model says it is a ai generated img how confident it is that kind of model evalusation is required
+
+and a main fallback is we need lots of datasets see our model should be pre trained on a lot of data so if it see a unseen image it have to predict well
+(AUTHORS INNER VOICE : this is totally like doing a theory revision for ml lol )
+
+so potential datasets are : (OPENSOURCES)
+1.huggingface datasets
+2.github
+3.https://github.com/ondyari/FaceForensics
+4.https://github.com/ondyari/FaceForensics
+5.https://github.com/ai-detected/ai-detectors (FOUND THIS REPO THAT MIGHT GIVE A BIG RESEARCH GOAL)
+6.Kaggle
