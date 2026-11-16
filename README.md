@@ -64,14 +64,6 @@ Inspired by decision-style APIs (e.g. [Hive](https://docs.thehive.ai)), the syst
 - [ai-detected/ai-detectors](https://github.com/ai-detected/ai-detectors) (research starting point)
 - GitHub-hosted benchmark sets
 
-## Learning resources
-
-See [RESOURCES.md](RESOURCES.md).
-
-## Build plan and time estimate
-
-See [BUILD_PLAN.md](BUILD_PLAN.md).
-
 ## Repo layout (planned)
 
 ```
