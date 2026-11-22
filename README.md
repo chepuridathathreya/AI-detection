@@ -77,3 +77,5 @@ web/         React frontend
 ## License
 
 TBD.
+
+Last updated: 22 Nov 2026.
